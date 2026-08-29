@@ -1,10 +1,10 @@
 # Pre-work · Engagement Mechanic
 
-prep for Module 3 — kept separate from the main `[engagement-mechanic.md](engagement-mechanic.md)` deliverable.
+Notes kept separate from the main [`engagement-mechanic.md`](engagement-mechanic.md) write-up.
 
 ## Behavior
 
-Categorizing / reconciling transactions — the direct continuation of the Module 2 Aha moment ("$3,847 in uncategorized expenses found").
+Categorizing / reconciling transactions — the direct continuation of the onboarding Aha moment ("$3,847 in uncategorized expenses found").
 
 ## Cadence
 
@@ -20,11 +20,9 @@ Real, not manufactured — uncategorized expenses pile up, invoices age, actual 
 
 Something new, and a stronger fit than a generic score: a **Weekly Clear-to-Zero** counter.
 
-Every week FinWise shows "X uncategorized transactions remaining," ticking down as the user clears them, mirroring the exact language of the Aha screen. It's not a Progress Bar toward an arbitrary goal, not a Streak, not a Leaderboard — it's a literal countdown on the same specific problem the Aha moment surfaced, so clearing it to zero is the core value, not points bolted on top. That directly satisfies the lab's "connected to core value" principle better than a separate abstract score would.
+Every week FinWise shows "X uncategorized transactions remaining," ticking down as the user clears them, mirroring the exact language of the Aha screen. It's not a Progress Bar toward an arbitrary goal, not a Streak, not a Leaderboard — it's a literal countdown on the same specific problem the Aha moment surfaced, so clearing it to zero is the core value, not points bolted on top. That connects the habit directly to core product value better than a separate abstract score would.
 
 ---
-
-
 
 ## Diagnose the churn
 
@@ -40,4 +38,3 @@ Yes — it gives a user a specific, recurring reason to come back weekly ("3 new
 
 - **Streak Counter** — wrong tone for financial software; weekly cadence doesn't fit daily-streak logic
 - **Leaderboard** — financial data is private, not something small business owners want ranked against peers
-

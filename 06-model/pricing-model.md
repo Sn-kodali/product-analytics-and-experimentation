@@ -8,7 +8,7 @@
 
 Evidence: (1) Only 2% of trial users convert to paid despite proven demand — the bottleneck is the conversion mechanism itself, not whether the product is valuable. (2) 40% one-year retention (60% churn post-conversion) shows even the users who do pay aren't durably committed, meaning the paid tier isn't yet capturing the right behavior or the right moment.
 
-**Model: Reverse-trial + Freemium hybrid.** FinWise currently runs a pure reverse-trial — full premium access for a fixed window, then a hard cutoff. That structure is good at proving value fast (matches the Aha-moment design from Module 2: users see a personalized finding, like "$3,847 in uncategorized expenses," within their first session). But it's poorly suited to FinWise's actual usage pattern: financial management is a recurring habit (this is the same insight the Module 3 "Weekly Clear-to-Zero" mechanic was built around), not a one-time evaluation. A hard cutoff after 14 days assumes users decide fast; the data (2% conversion) says most don't. Subscription logic fits the continuous-value delivery, but only if paired with a free tier that keeps non-converters inside the habit loop instead of losing them entirely.
+**Model: Reverse-trial + Freemium hybrid.** FinWise currently runs a pure reverse-trial — full premium access for a fixed window, then a hard cutoff. That structure is good at proving value fast (matches the Aha-moment design from the onboarding redesign: users see a personalized finding, like "$3,847 in uncategorized expenses," within their first session). But it's poorly suited to FinWise's actual usage pattern: financial management is a recurring habit (this is the same insight the Weekly Clear-to-Zero mechanic was built around), not a one-time evaluation. A hard cutoff after 14 days assumes users decide fast; the data (2% conversion) says most don't. Subscription logic fits the continuous-value delivery, but only if paired with a free tier that keeps non-converters inside the habit loop instead of losing them entirely.
 
 _____
 
@@ -18,7 +18,7 @@ Replace the hard trial-expiration cutoff with a real, usable free tier: reconcil
 
 This is a **packaging bet** ("is packaging matched to value?"), not a price increase or a full model change: the price points don't move, the free/paid line does. The goal is to stop losing the 98% who don't convert in the trial window outright, and instead let them keep building habit on the free tier — creating a second, later opportunity to convert once they hit the modeling wall — rather than forcing a single high-stakes decision at Day 14.
 
-Trade-off acknowledged: this sacrifices some of the urgency a hard cutoff creates (some users who might have converted under pressure may now just stay on the free tier longer). That's an accepted cost in exchange for turning acquisition into something that can compound instead of depending entirely on paid channels, which the brief flags as unsustainable.
+Trade-off acknowledged: this sacrifices some of the urgency a hard cutoff creates (some users who might have converted under pressure may now just stay on the free tier longer). That's an accepted cost in exchange for turning acquisition into something that can compound instead of depending entirely on paid channels, which is unsustainable at FinWise's current economics.
 
 _____
 

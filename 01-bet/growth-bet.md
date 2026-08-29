@@ -1,4 +1,4 @@
-# FinWise · Hypothesis & Bet, Module 1
+# FinWise · Hypothesis & Bet
 
 ## First hypothesis
 
@@ -11,8 +11,6 @@ The growth engine doesn't actually look product-led anymore. Most of the budget 
 
 - **Bet:** Test guided onboarding that drives deeper engagement with core value during the trial, measured by trial-to-paid conversion with 1-year retention as a guardrail.
 
-
-
 ## Testable hypothesis
 
 - **IF** FinWise adds guided onboarding during the reverse trial that actively directs new users to complete the product's core actions — connecting their financial data and generating their first report — within their first session or two
@@ -20,9 +18,7 @@ The growth engine doesn't actually look product-led anymore. Most of the budget 
 - **BECAUSE** users who actually experience the product's core value during the trial are the ones who will feel genuine loss when the reverse-trial downgrade hits, and are also more likely to stay engaged — and therefore retained — after converting
 - **MEASURED WITH** an A/B test on new trial sign-ups over one full quarter, trial-to-paid conversion rate as the primary metric, and 1-year retention of newly converted customers as a guardrail metric
 
-
-
-## Hands-On Lab · Pressure-test
+## Pressure-test against the data
 
 - **Most surprising pattern:**
 The pattern Ithat suprised me is the flat Trial→Paid rate (1.87%–2.08% every single month for 13 months straight). It's surprising because you'd expect a conversion rate to move around at least a little as traffic volume and quality shift month to month — instead it barely budges, no matter what else is happening. That kind of stubborn consistency across 13 months is what tipped me off that this isn't a traffic issue, it's something structural in the trial experience itself
@@ -30,16 +26,13 @@ The pattern Ithat suprised me is the flat Trial→Paid rate (1.87%–2.08% every
 - **Verdict:** Confirmed
 - **What the data told me:**
 The trial-to-paid conversion rate stayed
-essentially flat at ~2% across all 13 months, regardless of how much Visits or Trials swung month to month (Visits ranged 5,130–9,426, Trials ranged 321–644, but Trial→Paid never left the 1.87%–2.08% band). That told me the constraint isn't top-of-funnel traffic — it's something happening during the trial that isn't converting people into value, which is exactly what my Exercise 1 hypothesis pointed at before I saw any data.
-
-
+essentially flat at ~2% across all 13 months, regardless of how much Visits or Trials swung month to month (Visits ranged 5,130–9,426, Trials ranged 321–644, but Trial→Paid never left the 1.87%–2.08% band). That told me the constraint isn't top-of-funnel traffic — it's something happening during the trial that isn't converting people into value, which is exactly what my initial hypothesis pointed at before I saw any data.
 
 ## My bet
 
 - **Growth loop:** Collaboration
 
-![FinWise · Collaboration Growth Loop](finwise_collaboration_growth_loop.jpg)
+![FinWise · Collaboration Growth Loop](finwise_growth_loop.png)
 
 - **Reasoning:** Financial-management software for a small business is rarely used by just one person — an owner's accountant or bookkeeper is often already reviewing the books — so inviting that second, professional user in is a natural, high-context action, not a generic referral ask. It also mirrors a real, documented pattern: Xero and QuickBooks both drove major growth through accountant-partner channels, where one practitioner brings in their whole client book.
 - **Formalized:** FinWise's biggest growth problem is Trial users aren't reaching real activation before the reverse-trial downgrade hits. because The trial-to-paid conversion rate stayed flat at roughly 2% for 13 straight months regardless of how much traffic or how many trials FinWise generated — showing the issue isn't acquisition volume, but something happening during the trial itself., and the highest-leverage experiment I'd run first is Redesigning trial onboarding to drive users to complete FinWise's core actions (connecting their data, generating a report) within their first session, measured by trial-to-paid conversion with 1-year retention as a guardrail..
-
