@@ -4,7 +4,7 @@
 
 Nandini Kodali · Product Experimentation · August 2026
 
-This repo is my final project for the **Product Experimentation Certification** — a complete, evidence-backed experimentation strategy for FinWise Co. One folder per module; this README is **The Story** that ties them together. The visual companion is [`pitch.html`](pitch.html).
+This repo is a complete, evidence-backed experimentation strategy for FinWise Co. One folder per module; this README is **The Story** that ties them together. The visual companion is [`pitch.html`](pitch.html).
 
 ---
 
