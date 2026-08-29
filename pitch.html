@@ -70,13 +70,13 @@ h3{font-size:15px;font-weight:800;color:#fff;margin:0 0 8px}
 .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 .shots .shot{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#0a1628;display:flex;align-items:center;justify-content:center;min-height:0}
 .shots img{width:100%;height:auto;max-height:min(42vh,420px);object-fit:contain;object-position:center;display:block}
-#s5 .grid.two{grid-template-columns:0.95fr 1.05fr;align-items:center}
-#s8 .browser img{max-height:min(62vh,560px)}
-#s6 .shots img{max-height:min(46vh,460px)}
-#s6 .callout{margin-bottom:16px}
-#s7 .browser img{max-height:min(36vh,380px)}
-#s7 .shots img{max-height:min(18vh,180px)}
-#s8 .browser img{max-height:min(58vh,540px)}
+#s2 .grid.two{grid-template-columns:0.95fr 1.05fr;align-items:center}
+#s2 .browser img{max-height:min(62vh,560px)}
+#s3 .shots img{max-height:min(46vh,460px)}
+#s3 .callout{margin-bottom:16px}
+#s4 .browser img{max-height:min(36vh,380px)}
+#s4 .shots img{max-height:min(18vh,180px)}
+#s5 .browser img{max-height:min(58vh,540px)}
 .stat{font-family:'IBM Plex Mono',monospace;font-size:28px;font-weight:500;color:var(--rose);line-height:1}
 .stat-sub{font-size:12px;color:var(--muted);margin-top:6px}
 .cover{text-align:center}
@@ -93,21 +93,21 @@ h3{font-size:15px;font-weight:800;color:#fff;margin:0 0 8px}
 .model-layout .card{padding:18px 20px}
 @media(max-width:900px){.model-layout{grid-template-columns:1fr}}
 .footer-note{margin-top:18px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--muted);text-align:center}
-#s10 .frame{max-height:calc(100vh - 48px)}
-#s10 h2{margin-bottom:12px;font-size:clamp(24px,3.2vw,34px)}
+#s7 .frame{max-height:calc(100vh - 48px)}
+#s7 h2{margin-bottom:12px;font-size:clamp(24px,3.2vw,34px)}
 </style>
 </head>
 <body>
 <div id="progress"></div>
 <nav class="dots" aria-label="Slides">
   <a href="#s1" class="active" title="Cover"></a>
-  <a href="#s5" title="The Bet"></a>
-  <a href="#s6" title="The Solution"></a>
-  <a href="#s7" title="The Mechanic"></a>
-  <a href="#s8" title="The Signals"></a>
-  <a href="#s9" title="The Validation"></a>
-  <a href="#s10" title="The Model"></a>
-  <a href="#s11" title="The Story"></a>
+  <a href="#s2" title="The Bet"></a>
+  <a href="#s3" title="The Solution"></a>
+  <a href="#s4" title="The Mechanic"></a>
+  <a href="#s5" title="The Signals"></a>
+  <a href="#s6" title="The Validation"></a>
+  <a href="#s7" title="The Model"></a>
+  <a href="#s8" title="The Story"></a>
 </nav>
 
 <!-- 1 Cover -->
@@ -125,9 +125,9 @@ h3{font-size:15px;font-weight:800;color:#fff;margin:0 0 8px}
 </section>
 
 <!-- 5 The Bet -->
-<section class="slide" id="s5">
+<section class="slide" id="s2">
   <div class="frame">
-    <div class="eyebrow" style="color:var(--blue)">Slide 5 · The Bet</div>
+    <div class="eyebrow" style="color:var(--blue)">Slide 2 · The Bet</div>
     <h2>Growth hypothesis &amp; the bet</h2>
     <div class="grid two">
       <div class="stack">
@@ -153,9 +153,9 @@ h3{font-size:15px;font-weight:800;color:#fff;margin:0 0 8px}
 </section>
 
 <!-- 6 The Solution -->
-<section class="slide" id="s6">
+<section class="slide" id="s3">
   <div class="frame">
-    <div class="eyebrow" style="color:var(--sky)">Slide 6 · The Solution</div>
+    <div class="eyebrow" style="color:var(--sky)">Slide 3 · The Solution</div>
     <h2>Onboarding &amp; the Aha moment</h2>
     <div class="callout" style="margin-bottom:14px">
       <div class="label" style="color:var(--sky)">Aha-moment definition</div>
@@ -185,9 +185,9 @@ h3{font-size:15px;font-weight:800;color:#fff;margin:0 0 8px}
 </section>
 
 <!-- 7 The Mechanic -->
-<section class="slide" id="s7">
+<section class="slide" id="s4">
   <div class="frame">
-    <div class="eyebrow" style="color:var(--violet)">Slide 7 · The Mechanic</div>
+    <div class="eyebrow" style="color:var(--violet)">Slide 4 · The Mechanic</div>
     <h2>Weekly Clear-to-Zero</h2>
     <div class="grid two">
       <div class="stack">
@@ -224,9 +224,9 @@ h3{font-size:15px;font-weight:800;color:#fff;margin:0 0 8px}
 </section>
 
 <!-- 8 The Signals -->
-<section class="slide" id="s8">
+<section class="slide" id="s5">
   <div class="frame">
-    <div class="eyebrow" style="color:var(--amber)">Slide 8 · The Signals</div>
+    <div class="eyebrow" style="color:var(--amber)">Slide 5 · The Signals</div>
     <h2>What we measure</h2>
     <div class="grid two split-tight">
       <div class="stack">
@@ -263,9 +263,9 @@ h3{font-size:15px;font-weight:800;color:#fff;margin:0 0 8px}
 </section>
 
 <!-- 9 The Validation -->
-<section class="slide" id="s9">
+<section class="slide" id="s6">
   <div class="frame">
-    <div class="eyebrow" style="color:var(--mint)">Slide 9 · The Validation</div>
+    <div class="eyebrow" style="color:var(--mint)">Slide 6 · The Validation</div>
     <h2>Experiment brief</h2>
     <div class="pills" style="margin-bottom:14px">
       <span class="chip blue">Method: Standard A/B Test</span>
@@ -301,9 +301,9 @@ h3{font-size:15px;font-weight:800;color:#fff;margin:0 0 8px}
 </section>
 
 <!-- 10 The Model -->
-<section class="slide" id="s10">
+<section class="slide" id="s7">
   <div class="frame">
-    <div class="eyebrow" style="color:var(--teal)">Slide 10 · The Model</div>
+    <div class="eyebrow" style="color:var(--teal)">Slide 7 · The Model</div>
     <h2>Pricing &amp; packaging</h2>
     <div class="pills" style="margin-bottom:14px">
       <span class="chip teal">Stage 2 — Revenue Expansion</span>
@@ -344,9 +344,9 @@ h3{font-size:15px;font-weight:800;color:#fff;margin:0 0 8px}
 </section>
 
 <!-- 11 The Story -->
-<section class="slide" id="s11">
+<section class="slide" id="s8">
   <div class="frame">
-    <div class="eyebrow" style="color:var(--rose)">Slide 11 · The Story</div>
+    <div class="eyebrow" style="color:var(--rose)">Slide 8 · The Story</div>
     <h2>Insights &amp; submit</h2>
     <div class="grid three">
       <div class="card top-rose">
